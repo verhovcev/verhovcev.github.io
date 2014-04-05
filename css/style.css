@@ -5,7 +5,7 @@ div.main-content
     margin-left:auto; 
     margin-right: auto; 
     height:100%;
-    # min-height:600px;
+    min-height:600px;
     background-color: #FFFFFF;
     # border-radius: 8px;
     # -moz-border-radius: 8px;
