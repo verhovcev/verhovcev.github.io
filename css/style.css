@@ -27,7 +27,7 @@ div.contentleft
 }
 div.insideleft
 { 
-    padding: 30px;
+    # padding: 30px;
     
     # border: 1px solid red;
     # background-color: #900;
@@ -36,7 +36,7 @@ div.insideleft
 div.contentright
 { 
     float:right;
-    display:table-cell; horizontal-align:right #1
+    /*display:table-cell; horizontal-align:right #1 */
 
     width:70%;
     # background-color: #090;
