@@ -2,18 +2,34 @@
 <html>
 
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  
-  <title>Фотограф Роман Верховцев</title>
-  
-  <script src="http://cdn.jquerytools.org/1.2.7/full/jquery.tools.min.js"></script>
-  <script src="http://malsup.github.com/jquery.cycle2.js"></script>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
-  <link rel="stylesheet" type="text/css" href="css/tabs.css"/>
-  <link rel="stylesheet" type="text/css" href="css/slideshow.css"/>
-  <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <title>Фотограф Роман Верховцев</title>
 
-</head>
+    <script src="http://cdn.jquerytools.org/1.2.7/full/jquery.tools.min.js"></script>
+    <script src="http://malsup.github.com/jquery.cycle2.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="css/tabs.css"/>
+    <link rel="stylesheet" type="text/css" href="css/slideshow.css"/>
+    <!-- link rel="stylesheet" type="text/css" href="css/style.css"/ -->
+  
+    <!-- 
+    <link rel='stylesheet' media='screen and (max-width: 1000px)' href='css/mobile.css' />
+    <link rel='stylesheet' media='screen and (min-width: 1001px)' href='css/style.css' />
+    -->
+    
+    <link id="stylesheet" rel='stylesheet' />
+    
+    <script language="javascript"> 
+    if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+        document.getElementById('stylesheet').href='css/mobile.css';
+    }
+    else {
+        document.getElementById('stylesheet').href='css/style.css';
+    }
+    </script>
+    
+</head>    
 <body>
 <div class="main-content">
     <ul class="css-tabs">

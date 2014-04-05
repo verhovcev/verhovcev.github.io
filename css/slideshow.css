@@ -18,7 +18,8 @@
     helps avoid flash-of-unstyled-content
     */
     position: absolute; top: 0; left: 0;
-    width: 100%; padding: 0; display: block;
+    /* width: 100%; */
+    padding: 0; display: block;
 }
 
 /* in case script does not load */
