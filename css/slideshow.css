@@ -8,7 +8,7 @@
 .cycle-slideshow, .cycle-slideshow * { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 
 
-.cycle-slideshow { width: 100%; min-width: 200px; padding: 0; position: relative;
+.cycle-slideshow { width: 100%; min-width: 200px; max-width: 600px; padding: 0; 
  }
 
 /* slideshow images (for most of the demos, these are the actual "slides") */
@@ -17,8 +17,9 @@
     some of these styles will be set by the plugin (by default) but setting them here
     helps avoid flash-of-unstyled-content
     */
-    position: absolute; top: 0; left: 0;
-    /* width: 100%; */
+    
+    /*position: absolute; top: 0; left: 0;
+     width: 100%; */
     padding: 0; display: block;
 }
 
@@ -40,10 +41,8 @@
 
 .cycle-pager > * { cursor: pointer;}
 
-
 /* caption */
 .cycle-caption { position: absolute; color: white; bottom: 15px; right: 15px; z-index: 700; }
-
 
 /* overlay */
 .cycle-overlay { 
@@ -52,15 +51,7 @@
     background: black; color: white; padding: 15px; opacity: .5;
 }
 
-
-/* prev / next links */
-.cycle-prev, .cycle-next { position: absolute; top: 0; width: 30%; opacity: 0; filter: alpha(opacity=0); z-index: 800; height: 100%; cursor: pointer; }
-.cycle-prev { left: 0;  background: url(http://malsup.github.com/images/left.png) 50% 50% no-repeat;}
-.cycle-next { right: 0; background: url(http://malsup.github.com/images/right.png) 50% 50% no-repeat;}
-.cycle-prev:hover, .cycle-next:hover { opacity: .7; filter: alpha(opacity=70) }
-
 .disabled { opacity: .5; filter:alpha(opacity=50); }
-
 
 /* display paused text on top of paused slideshow */
 .cycle-paused:after {
