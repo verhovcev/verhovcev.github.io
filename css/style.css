@@ -1,42 +1,54 @@
 /* main, really */
 
-div.main-content 
+div.meta-content 
 { 
-    margin: 3%;
-    width: 90%;
+    position: float;
     margin-left:auto; 
     margin-right: auto; 
-    height:100%;
     
-    background-color: #FFFFFF;
-    # border-radius: 8px;
-    # -moz-border-radius: 8px;
+    max-width: 857px;
+}
+div.main-content 
+{ 
+    padding: 10px;
+    
+    margin-left:auto; 
+    margin-right: auto; 
+    
+    background-color: #000;
 }
 
 div.content 
 { 
     display:table;
-    height:100%;
+    
+    background-color: #fff;
 }
 div.contentleft
 { 
     display:table-cell; vertical-align:middle;
     width: 30%;
+    
+    background-color: #fff;
 }
 div.insideleft
 { 
     padding: 30px;
+    
+    # border: 1px solid red;
+    # background-color: #900;
+    # background-color: #990;
 }
 div.contentright
 { 
     display:table-cell;
- 
-    width:70%;
+    background-color: #fff;
 }
 div.insideright
 { 
     padding: 30px 30px 30px 0px;
     min-height: 400px;
+    # background-color: #990;
 }
 
 html,body
@@ -44,12 +56,20 @@ html,body
     background-color: #000;
     margin:0;
     padding:0;
+    
+    #fnt-family: "Tahoma", Times, serif;
 }
 
 h2{
     margin: 0;
+    #font:bold 18pt Georgia , serif;
 }
+h3{
+    margin: 0;
+    #font: 14pt Warnock , serif;
+}
+
 img {
-    #float:right;
-    max-width: 200%;
+    max-width:100%;
+    height:auto;
 }
