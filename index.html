@@ -9,23 +9,19 @@
     <script src="http://cdn.jquerytools.org/1.2.7/full/jquery.tools.min.js"></script>
     <script src="http://malsup.github.com/jquery.cycle2.js"></script>
 
-    <link rel="stylesheet" type="text/css" href="css/tabs.css"/>
+    <link id="tabscss" rel="stylesheet" type="text/css" href="css/tabs.css"/>
     <link rel="stylesheet" type="text/css" href="css/slideshow.css"/>
-    <!-- link rel="stylesheet" type="text/css" href="css/style.css"/ -->
-  
-    <!-- 
-    <link rel='stylesheet' media='screen and (max-width: 1000px)' href='css/mobile.css' />
-    <link rel='stylesheet' media='screen and (min-width: 1001px)' href='css/style.css' />
-    -->
     
     <link id="stylesheet" rel='stylesheet' />
     
     <script language="javascript"> 
-    if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+    if( !true || /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
         document.getElementById('stylesheet').href='css/mobile.css';
+        document.getElementById('tabscss').href='css/tabsmobile.css';
     }
     else {
         document.getElementById('stylesheet').href='css/style.css';
+        document.getElementById('tabscss').href='css/tabs.css';
     }
     </script>
     
