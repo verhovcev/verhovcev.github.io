@@ -3,7 +3,7 @@
 ul.css-tabs {
     margin:0 !important;
     padding:0;
-    height:60px;
+    height:32px;
     border-bottom:1px solid #666;
     background-color: white;
 }
@@ -21,11 +21,11 @@ ul.css-tabs a {
     float:left;
     font-size:10px;
     display:block;
-    padding:20px 50px;
+    padding:10px 10px;
     text-decoration:none;
     border:1px solid #666;
     border-bottom:0px;
-    height:18px;
+    height:10px;
     background-color:#efefef;
     color:#777;
     margin-right:2px;
@@ -51,11 +51,7 @@ ul.css-tabs a.current {
 
 /* tab pane */
 .css-panes div {
-    # display:none;
-    # border:1px solid #666;
     border-width:0 1px 1px 1px;
-    # min-height:150px;
-    # padding:15px 20px;
     background-color: white;
 }
 

@@ -2,55 +2,6 @@ div{
    clear:both!important;
 }
 
-div.meta-content 
-{ 
-    position: float;
-}
-
-div.main-content 
-{ 
-    background-color: white;
-}
-
-div.content 
-{ 
-    height:100%;
-}
-div.contentleft
-{ 
-    width:100%;
-}
-div.insideleft
-{ 
-    width: 100%;
-    background-color: #fff;
-}
-div.contentright
-{ 
-    width:100%;
-    background-color: #fff;
-}
-div.cyclecontainer
-{ 
-    width: 600px;
-    margin:auto;
-    background-color: #fff;
-}
-div.insideright
-{ 
-    min-height: 400px;
-    background-color: #fff;
-}
-
 html,body{
-    background-color: #fff;
     font-family:Helvetica, Arial, Verdana, sans-serif;
-    padding:5px;
-    -webkit-text-size-adjust: 300%;
-}
-
-h2{
-    margin: 0;
-}
-img {
 }

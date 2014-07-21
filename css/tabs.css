@@ -1,51 +1,80 @@
 
-/* root element for tabs  */
+/* root element for tabs (buttons) */
 ul.css-tabs {
     margin:0 !important;
-    padding:0;
-    height:30px;
-    border-bottom:1px solid #666;
-    background-color: black;
+    padding: 30px 0 0 0;
+    height:42px;
+    
+    text-align: center; /* some nasty hack to center the content */
 }
 
-/* single tab */
+/* container */
+div.flcenter {
+    display: inline-block; /* some nasty hack to center the tabs. works with text-align: center; for css-tabs!*/
+    background-color: #fff;
+}
+
+/* single tab class */
 ul.css-tabs li {
     float:left;
-    padding:0;
+    padding:4px;
     margin:0;
     list-style-type:none;
+    
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif
 }
 
 /* link inside the tab. uses a background image */
 ul.css-tabs a {
-    float:left;
-    font-size:13px;
-    display:block;
-    padding:5px 30px;
-    text-decoration:none;
-    border:1px solid #666;
-    border-bottom:0px;
     height:18px;
-    background-color:#efefef;
-    color:#777;
-    margin-right:2px;
-    position:relative;
-    top:1px;
-    outline:0;
-    -moz-border-radius:4px 4px 0 0;
+    padding:5px 30px;
+    background-color:#eee;
+
+    font-size:13px;
+    color:#666;
+    text-decoration:none;
+    
+    border-radius: 8px;
+    -moz-border-radius:8px 8px 0 0;
+
+    /* ??? */
+    #float:left;
+    
+    #display:block;
+    #outline:0;
+    #border:1px solid #666;
+    #border-bottom:0px;
+    #margin-right:2px;
+    #position:relative;
+    #top:1px;
+    
+    box-shadow: 4px 4px 5px #aaa;
 }
 
 ul.css-tabs a:hover {
     background-color:#F7F7F7;
     color:#333;
+    #border-radius: 15px;
+    box-shadow: 3px 3px 4px #888;
 }
 
 /* selected tab */
 ul.css-tabs a.current {
-    background-color:#ddd;
+    background-color:#fafafa;
     border-bottom:1px solid #ddd;
     color:#000;
     cursor:default;
+    box-shadow: 3px 3px 4px #888;
+}
+
+/* tab pane */
+.css-panes div {
+    # display:none;
+    # border:1px solid #666;
+    border-width:0 1px 1px 1px;
+    # min-height:150px;
+    # padding:15px 20px;
+    background-color: white;
 }
 
 
